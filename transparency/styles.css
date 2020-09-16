@@ -103,7 +103,8 @@ ul {
 }
 
 .alert {
-  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #2196f3;
   color: white;
   top: 0;
@@ -111,7 +112,7 @@ ul {
   position: fixed;
   width: 100%;
   text-align: center;
-  font-family: 'Montserrat'; sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -140,6 +141,9 @@ body {
   margin: auto;
 }
 
+
+
+
 #map {
   width: 50%;
   display: block;
@@ -148,7 +152,7 @@ body {
 }
 
 @media (max-width: 750px) {
-  .card {
+ .card {
     width: 55%;
   }
   #data h2 {

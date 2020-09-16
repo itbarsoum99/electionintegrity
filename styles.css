@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+h1 {
+  font-size: 10vw;
+  font-family: 'Abril Fatface', sans-serif;
+  font-weight: lighter;
+  margin: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+ul {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  margin-top: 0%;
+}
+
+#US h1 {
+  flex-wrap: wrap;
+}
+
+#data {
+  margin-top: 10vh;
+}
+
+#data h2 {
+  font-weight: lighter;
+  display: inline;
+  color: #ffffff;
+  font-family: 'Abril Fatface', sans-serif;
+  width: 100%;
+  text-align: center;
+  font-size: 3vw !important;
+  margin: 0%;
+  text-transform: uppercase;
+  line-height: 90%;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: lighter;
+  display: inline;
+  color: #ffffff;
+  font-family: 'Abril Fatface', sans-serif;
+  width: 100%;
+  text-align: center;
+  font-size: 5vw;
+  margin: 0%;
+  text-transform: uppercase;
+  line-height: 90%;
+}
+
+#CT h3 {
+  font-size: 4vw;
+}
+
+#MA h3 {
+  font-size: 3.5vw;
+}
+
+#WA h3 {
+  font-size: 4vw;
+}
+
+#PA h3 {
+  font-size: 4vw;
+}
+
+.card p {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  margin-top: 0%;
+  text-align: center;
+}
+
+
+.a {
+  color: darkgreen;
+}
+
+.b {
+  color: cornflowerblue;
+}
+
+.c {
+  color: orange;
+}
+
+.d {
+  color: #9900ff;
+}
+
+.f {
+  color: red;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #2196f3;
+  color: white;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-family: 'Montserrat'; sans-serif;
+}
+
+
+
+body {
+  background-color: #111;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+}
+body {
+  scrollbar-width: none;
+}
+
+.card {
+  background-color: #1e1f22;
+  border: 3px solid #111;
+  border-radius: 10px;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 35%;
+  padding: 2vw;
+  padding-bottom: 0vw;
+  margin: auto;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 1%;
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+
+
+#map {
+  width: 50%;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@media (max-width: 850px) {
+  .sidebar {
+    width: 100%;
+    height: 6%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  .sidebar a {
+    padding: 0.8vw 0.8vw 0.8vw 3.2vw;
+    text-decoration: none;
+    font-size: 4vw;
+    color: #818181;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  .card {
+    width: 60%;
+  }
+  #data h2 {
+    font-size: 5vw !important;
+  }
+  h2 {
+    font-size: 7vw !important;
+  }
+  .card h1 {
+    font-size: 12vw;
+  }
+  .card p {
+    letter-spacing: -0.5px;
+  }
+  li {
+    letter-spacing: -0.5px;
+  }
+  #data {
+    margin-top: 13vh;
+  }
+}
+
+@media (max-width: 500px) {
+  #data {
+    margin-top: 15vh
+  }
+}
+
+@media (pointer: coarse) {
+  .card{
+    width: 80%;
+    padding: 3vw;
+    border-radius: 30px;
+    margin-bottom: 2vh;
+  }
+  #data h2 {
+    font-size: 8vw !important;
+  }
+  h2 {
+    font-size: 11vw !important;
+    margin-bottom: 0%;
+  }
+  .card h1 {
+    font-size: 17vw;
+  }
+  .card p{
+    margin-top: 0%;
+    font-size: 300%;
+    letter-spacing: -0.5px;
+  }
+  li {
+    font-size:300%;
+    letter-spacing: -0.5px;
+  }
+  body {
+    margin-top: 3vh;
+  }
+}

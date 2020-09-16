@@ -167,11 +167,14 @@ body {
 
 
 
-#map {
-  width: 50%;
+img {
+  width: 30%;
   display: block;
   margin-left: auto !important;
   margin-right: auto !important;
+  padding: 1vh;
+  border: 3px solid #111;
+  border-radius: 30px;
 }
 
 @media (max-width: 850px) {
@@ -218,6 +221,9 @@ body {
   }
   #data {
     margin-top: 13vh;
+  }
+  img {
+    width: 70%;
   }
 }
 
@@ -277,5 +283,8 @@ body {
   }
   body {
     margin-top: 3vh;
+  }
+  img {
+    width: 90%;
   }
 }

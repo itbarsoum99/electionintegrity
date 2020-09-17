@@ -165,9 +165,15 @@ body {
   color: #f1f1f1;
 }
 
+.sidebar img {
+  width: 7%;
+  z-index: 10;
+  padding-right: 90%;
+  display: block;
+}
 
 
-img {
+#buttons {
   width: 30%;
   display: block;
   margin-left: auto !important;
@@ -222,7 +228,7 @@ img {
   #data {
     margin-top: 13vh;
   }
-  img {
+  #buttons {
     width: 70%;
   }
 }
@@ -283,7 +289,7 @@ img {
   body {
     margin-top: 3vh;
   }
-  img {
+  #buttons {
     width: 90%;
   }
 }

@@ -114,7 +114,9 @@ h2 {
   font-family: 'Montserrat'; sans-serif;
 }
 
-
+strong {
+  padding-left: 0%;
+}
 
 body {
   background-color: #111;

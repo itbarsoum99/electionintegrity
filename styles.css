@@ -66,7 +66,7 @@ button {
   height: 10vh;
   background-color: #2196f3;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2em;
+  font-size: 10vh;
   appearance: button;
   color: white;
   -webkit-writing-mode: horizontal-tb !important;

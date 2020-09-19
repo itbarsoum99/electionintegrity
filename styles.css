@@ -75,19 +75,21 @@ button {
   word-spacing: normal;
   text-transform: none;
   text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    box-sizing: border-box;
-    margin: 0em;
-    padding: 3px 3px;
-    border-width: 2px;
-    border-style: outset;
-    border-image: initial;
-    border: 3px solid white;
-    border-radius: 10px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  margin: 0em;
+  padding: 3px 3px;
+  border-width: 2px;
+  border-style: outset;
+  border-image: initial;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-bottom: 1vh;
+  font-weight: 700;
 }
 
 .handbook {

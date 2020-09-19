@@ -130,9 +130,8 @@ body {
 
 
 .quotation {
-  font-size: 20rem;
-  height: 15vh;
-  padding: 2px;
+  height: 30vh;
+  padding: 0%;
 }
 
 .card {

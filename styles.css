@@ -67,6 +67,27 @@ button {
   background-color: #2196f3;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
+  appearance: button;
+  color: white;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 3px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+    border: 3px solid white;
+    border-radius: 10px;
 }
 
 .handbook {

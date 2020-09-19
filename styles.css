@@ -128,6 +128,11 @@ body {
   scrollbar-width: none;
 }
 
+
+.quotation {
+  font-size: 17vw;
+}
+
 .card {
   background-color: #1e1f22;
   border: 3px solid #111;

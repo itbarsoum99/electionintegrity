@@ -89,6 +89,7 @@ button {
   border: 3px solid white;
   border-radius: 10px;
   margin-bottom: 1vh;
+  margin-top: -2vh;
   font-weight: 700;
 }
 

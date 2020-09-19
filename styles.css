@@ -131,6 +131,8 @@ body {
 
 .quotation {
   font-size: 17vw;
+  height: 10vh;
+  padding: 2px;
 }
 
 .card {

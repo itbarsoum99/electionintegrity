@@ -20,6 +20,11 @@ ul {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
   margin-top: 0%;
+  padding-left: 0em;
+}
+
+li {
+  padding-left: 40;
 }
 
 #US h1 {

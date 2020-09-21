@@ -115,7 +115,12 @@ ul {
   font-family: 'Montserrat', sans-serif;
 }
 
-
+.swing {
+  color: purple;
+  font-weight: 800;
+  text-transform:uppercase;
+  font-family: 'Abril Fatface', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 body {
   background-color: #111;

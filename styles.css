@@ -192,10 +192,10 @@ body {
 }
 
 .swing {
-  color: purple;
+  color: purple !important;
   font-weight: 800;
   text-transform:uppercase;
-  font-family: 'Abril Fatface', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Abril Fatface', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
 }
 
 .sidebar {

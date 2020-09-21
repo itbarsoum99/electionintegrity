@@ -156,7 +156,6 @@ button {
 
 strong {
   padding-left: 0%;
-  font-size: 1.2em;
 }
 
 body {
@@ -292,6 +291,9 @@ body {
   .quotation {
     width: 60%;
   }
+  strong {
+    font-size: 1.2em !important;
+  }
 }
 
 @media (max-width: 500px) {
@@ -355,5 +357,8 @@ body {
   }
   #buttons {
     width: 90%;
+  }
+  strong {
+    font-size: 1.2em !important;
   }
 }

@@ -109,8 +109,8 @@ button {
   font-size: 4vw;
 }
 
-#PA h3 {
-  font-size: 4vw;
+#PA {
+  font-size: 4.5vw;
 }
 
 .card p {
@@ -189,6 +189,13 @@ body {
   padding: 2vw;
   padding-bottom: 0vw;
   margin: auto;
+}
+
+.swing {
+  color: purple;
+  font-weight: 800;
+  text-transform:uppercase;
+  font-family: 'Abril Fatface', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .sidebar {

@@ -157,7 +157,6 @@ button {
 strong {
   padding-left: 0%;
   font-family: 'Montserrat', 'Abril Fatface', serif, sans-serif;
-  font-weight: 600;
 }
 
 body {
@@ -362,5 +361,6 @@ body {
   }
   strong {
     font-size: 5vw !important;
+    font-weight: normal;
   }
 }

@@ -293,7 +293,7 @@ body {
   .quotation {
     width: 60%;
   }
-  strong {
+  strong, h3 {
     font-size: 4vw !important;
   }
 }
@@ -362,6 +362,11 @@ body {
   }
   strong {
     font-size: 6vw !important;
+    font-weight: normal;
+    font-family: 'Abril Fatface' !important;
+  }
+  h3 {
+    font-size: 7vw !important;
     font-weight: normal;
     font-family: 'Abril Fatface' !important;
   }

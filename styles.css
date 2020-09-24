@@ -252,6 +252,7 @@ body {
     transition: 0.5s;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    padding: 0;
   }
 
   .sidebar a {

@@ -83,15 +83,17 @@ button {
   box-sizing: border-box;
   margin: 0em;
   padding: 3px 3px;
-  border-width: 2px;
-  border-style: outset;
-  border-image: initial;
-  border: 3px solid white;
-  border-radius: 10px;
   margin-bottom: 1vh;
   margin-top: -2vh;
   font-weight: 700;
 }
+
+button:hover {
+  background-color: navy;
+  transition: 0.5s;
+  height: 11vh;
+}
+
 
 .handbook {
   padding: 1vh;

@@ -63,9 +63,11 @@ h2 {
 
 button {
   height: 10vh;
-  background-color: #2196f3;
+  width: 33vh;
+  background-color: #00A9D8;
   font-family: 'Abril Fatface', serif;
   text-transform: uppercase;
+  font-weight: lighter;
   font-size: 5vh;
   appearance: button;
   color: white;
@@ -73,7 +75,6 @@ button {
   text-rendering: auto;
   letter-spacing: normal;
   word-spacing: normal;
-  text-transform: none;
   text-indent: 0px;
   text-shadow: none;
   display: inline-block;
@@ -81,17 +82,24 @@ button {
   align-items: flex-start;
   cursor: pointer;
   box-sizing: border-box;
-  margin: 0em;
   padding: 3px 3px;
-  margin-bottom: 1vh;
-  margin-top: -2vh;
-  font-weight: 700;
+  border-width: 2px;
+  border-style: outset;
+  border-image: initial;
+  border-radius: 10px;
+  border: 0px solid transparent;
+  transition: 0.5s;
+  display: block;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button:hover {
-  background-color: navy;
-  transition: 0.5s;
+  background-color: #0c8ec9;
   height: 11vh;
+  font-size: 5vh;
+  width: 35vh;
 }
 
 

@@ -104,6 +104,48 @@ button:hover {
   font-size: 1.2em;
 }
 
+#landing div {
+  margin-left:auto !important;
+  margin-right: auto !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#landing {
+  background-image: linear-gradient(to bottom right, blue, black, red);
+  overflow: hidden;
+  height: 100vh;
+}
+
+#proceed {
+  padding: 2%;
+  text-wrap: nowrap;
+}
+
+#proceed a {
+  color: lightblue !important;
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 1.3em;
+  font-weight: lighter;
+}
+
+.arrow {
+  border: solid lightblue;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
 .handbook {
   padding: 1vh;
 }
@@ -192,7 +234,6 @@ body {
 
 .card {
   background-color: #1e1f22;
-  border: 3px solid #111;
   border-radius: 10px;
   display: flex; 
   flex-wrap: wrap;

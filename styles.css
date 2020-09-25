@@ -438,4 +438,7 @@ body {
     font-weight: normal;
     font-family: 'Abril Fatface' !important;
   }
+  .arrow {
+    border-width: 0 3px 3px 0;
+  }
 }

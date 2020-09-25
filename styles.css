@@ -314,7 +314,6 @@ body {
     text-align: center;
     padding: 0;
   }
-
   .sidebar a {
     padding: 0.8vw 0.8vw 0.8vw 3.2vw;
     text-decoration: none;
@@ -415,6 +414,9 @@ body {
     margin-top: 0%;
     font-size: 300%;
     letter-spacing: -0.5px;
+  }
+  #proceed a {
+    font-size: 300%;
   }
   li {
     font-size:300%;

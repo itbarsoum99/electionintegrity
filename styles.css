@@ -117,7 +117,6 @@ button:hover {
 
 #landing {
   background-image: linear-gradient(to bottom right, blue, black, red);
-  overflow: hidden;
   height: 100vh;
 }
 

@@ -116,7 +116,7 @@ button:hover {
 }
 
 #landing {
-  background-image: linear-gradient(to bottom right, blue, black, red);
+  background-image: linear-gradient(to bottom right, blue, purple, red);
   height: 100vh;
 }
 

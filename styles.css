@@ -97,14 +97,11 @@ button {
 
 button:hover {
   background-color: #0c8ec9;
-  height: 11vh;
   font-size: 6vh;
-  width: 35vh;
 }
 
-#home {
-  margin-top: 1vh !important;
-  margin-bottom: 4vh !important;
+#homeli {
+  font-size: 1.2em;
 }
 
 .handbook {
@@ -206,6 +203,8 @@ body {
   margin: auto;
 }
 
+
+
 .swing {
   color: #9900ff !important;
   font-weight: 800;
@@ -247,6 +246,9 @@ body {
 #homeimg {
   width: 20vw;
 }
+
+ 
+
 
 #buttons {
   width: 30%;

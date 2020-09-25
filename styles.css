@@ -244,6 +244,9 @@ body {
   display: block;
 }
 
+#homeimg {
+  width: 25%;
+}
 
 #buttons {
   width: 30%;
@@ -282,6 +285,9 @@ body {
   }
   .card {
     width: 60%;
+  }
+  #homeimg {
+    width: 50%;
   }
   #data h2 {
     font-size: 5vw !important;
@@ -345,6 +351,9 @@ body {
     width: 80%;
     padding: 3vw;
     border-radius: 30px;
+  }
+  #homeimg {
+    width: 70%;
   }
   .quotation {
     width: 90%;

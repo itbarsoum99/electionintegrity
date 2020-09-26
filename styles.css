@@ -245,6 +245,10 @@ body {
   margin-bottom: 2vh;
 }
 
+#curr {
+  margin-top: 2vh;
+}
+
 #specard {
   background-color: transparent;
   font-size: 0.8em !important;

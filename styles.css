@@ -402,7 +402,7 @@ body {
   }
   #logo {
     width: 75vw;
-    margin-bottom: 10vh;
+    padding-bottom: 10vh;
   }
   #homeimg {
     width: 70%;

@@ -250,6 +250,10 @@ body {
   font-size: 0.8em !important;
 }
 
+#ccl {
+  height: 3vh;
+}
+
 #homebody .card {
   margin-bottom: 0vh !important;
 }
@@ -443,6 +447,9 @@ body {
   }
   body {
     margin-top: 3vh;
+  }
+  #ccl {
+    height: 6vh;
   }
   #buttons {
     width: 90%;

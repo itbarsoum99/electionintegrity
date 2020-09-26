@@ -377,7 +377,7 @@ body {
   }
 }
 
-@media (pointer: coarse and orientation:portrait) {
+@media (pointer: coarse) {
   .sidebar {
     width: 100%;
     height: 6%;

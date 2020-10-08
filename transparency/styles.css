@@ -315,4 +315,8 @@ body {
   .sidebar a:hover {
     color: #f1f1f1;
   }
+  #myBtn {
+    right: 10px;
+    bottom: 10px;
+  }
 }

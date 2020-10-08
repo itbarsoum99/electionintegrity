@@ -454,6 +454,10 @@ body {
   #logo {
     width: 75vw;
   }
+  #myBtn {
+    right: 10px;
+    bottom: 10px;
+  }
   #homeimg {
     width: 70%;
   }

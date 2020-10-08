@@ -322,4 +322,7 @@ body {
   #myBtn img {
     height: 5vh !important;
   }
+  .light {
+    font-weight: normal;
+  }
 }

@@ -298,6 +298,11 @@ body {
   color: #f1f1f1;
 }
 
+.light {
+  color: #f1f1f1 !important;
+  font-weight: bolder;
+}
+
 .sidebar img {
   width: 7%;
   z-index: 10;

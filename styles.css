@@ -418,6 +418,9 @@ body {
   .sidebar a:hover {
     color: #f1f1f1;
   }
+  .light {
+    font-weight: normal;
+  }
   .card{
     width: 80%;
     padding: 3vw;

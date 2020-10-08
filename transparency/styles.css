@@ -319,4 +319,7 @@ body {
     right: 10px;
     bottom: 10px;
   }
+  #myBtn img {
+    height: 5vh !important;
+  }
 }

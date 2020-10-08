@@ -458,6 +458,9 @@ body {
     right: 10px;
     bottom: 10px;
   }
+  #myBtn img {
+    height: 7vh;
+  }
   #homeimg {
     width: 70%;
   }

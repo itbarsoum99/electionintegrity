@@ -552,6 +552,9 @@ body {
     font-weight: normal;
     font-family: 'Abril Fatface' !important;
   }
+  #formofstate {
+    display: none;
+  }
   h3 {
     font-size: 6.5vw !important;
     font-weight: normal;

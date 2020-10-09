@@ -555,6 +555,9 @@ body {
   #formofstate {
     display: none;
   }
+  #flex {
+    text-decoration: underline;
+  }
   h3 {
     font-size: 6.5vw !important;
     font-weight: normal;

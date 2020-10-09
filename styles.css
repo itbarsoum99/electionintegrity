@@ -555,7 +555,7 @@ body {
   #formofstate {
     display: none;
   }
-  #flex {
+  flex {
     text-decoration: underline;
   }
   h3 {

@@ -20,7 +20,6 @@ Read more [here](https://creativecommons.org/licenses/by-nc/4.0/).
 * [Voter Guide](https://www.electionintegrity.us/handbook/voterguide)
 * [Voter Rights](https://www.electionintegrity.us/handbook/rights)
 
-<br>
 
 ## Vote
 * [Register to vote.](https://www.electionintegrity.us/handbook/register)

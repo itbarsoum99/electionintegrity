@@ -25,5 +25,5 @@ Read more [here](https://creativecommons.org/licenses/by-nc/4.0/).
 * [Register to vote.](https://www.electionintegrity.us/handbook/register)
 * [Vote during the pandemic.](https://www.electionintegrity.us/handbook/covid)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f3dbd73c-9261-4e5c-b224-8671076f5db1/deploy-status)](https://app.netlify.com/sites/integrityproject/deploys)
+<br>[![Netlify Status](https://api.netlify.com/api/v1/badges/f3dbd73c-9261-4e5c-b224-8671076f5db1/deploy-status)](https://app.netlify.com/sites/integrityproject/deploys)
 

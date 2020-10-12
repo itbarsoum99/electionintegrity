@@ -177,7 +177,6 @@ body {
 
 .card {
   background-color: #1e1f22;
-  border: 3px solid #111;
   border-radius: 10px;
   display: flex; 
   flex-wrap: wrap;

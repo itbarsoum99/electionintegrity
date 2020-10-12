@@ -11,7 +11,7 @@ International (CC BY-NC 4.0) License. This means you:
 * Can share the material
 * Can adapt the material
 * Must attribute the creator
-* May not use the material for commercial purposes.
+* May not use the material for commercial purposes
 
 Read more [here](https://creativecommons.org/licenses/by-nc/4.0/).
 

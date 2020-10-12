@@ -23,6 +23,6 @@ Read more [here](https://creativecommons.org/licenses/by-nc/4.0/).
 <br>
 
 ## Vote
-[Register to vote.](www.electionintegrity.us/handbook/register) <br>
-[Vote during the pandemic.](www.electionintegrity.us/handbook/covid)
+* [Register to vote.](www.electionintegrity.us/handbook/register)
+* [Vote during the pandemic.](www.electionintegrity.us/handbook/covid)
 

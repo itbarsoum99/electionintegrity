@@ -16,6 +16,9 @@ function topFunction() {
 
 function validateForm() {
   var x = document.forms["stateform"]["state"].value;
+  if (x == "US") {
+    alert("Please select a state to continue.")
+  }
   if (x == "AL") {
     alert("Please visit https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote in order to register to vote in Alabama.");
   }

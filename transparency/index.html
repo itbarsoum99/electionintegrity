@@ -18,7 +18,7 @@
 <body>
   <a onclick="topFunction()" id="myBtn" title="top"><img src="/assets/arrowup.png"></a>
 
-  <div class="card" id="data">
+  <div class="card" id="data" class="firstcard">
     <h2 class="state">Election Transparency Index</h2>
     <p>The Election Transparency Index is based on transparency of statistics, mail-in voting, ease of voter
       registration/election, and photo ID laws. The index takes the average of scores from all four of these categories
@@ -29,7 +29,7 @@
       <a href="https://slate.com/news-and-politics/2020/08/2020-voting-guide.html">Slate's voting guide</a> for 2020.
       The scores are intended to be unbiased reflections of the transparency of the election in each US state.</p>
   </div>
-  <img src="/assets/map.png" alt="map of states" id="map">
+  <div><img src="/assets/map.png" alt="map of states" id="map"></div>
   <div class="card" id="AL">
     <h3 class="state">Alabama</h3>
     <h1 class="c">C+</h1>
@@ -517,8 +517,7 @@
       <li>The worst score of any state was <strong>Mississippi</strong> with its score of 14.</li>
     </ul>
   </div>
-<script src="/main.js"></script>
-
+  <script src="/main.js"></script>
+  <script src="/jquery.js"></script>
 </body>
-
 </html>

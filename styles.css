@@ -55,6 +55,21 @@ li {
   margin-bottom: 10px;
 }
 
+/*
+div {
+  opacity: 0;
+  transform: translate(0, 20px);
+  transition: all 1s;
+}
+div.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}*/
+
+
+
+
+
 h2 {
   font-weight: lighter;
   display: inline;

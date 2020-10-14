@@ -85,6 +85,18 @@ div.visible {
   animation: animate 1.5s infinite;
 }
 
+@media (pointer:coarse) {
+  .homearrow span {
+    width: 60px;
+    height: 60px;
+    border-bottom: 10px solid #ffffff;
+    border-right: 10px solid #ffffff;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 1.5s infinite;
+  }
+}
+
 @keyframes animate {
   0%{
     opacity: 0;

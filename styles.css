@@ -651,6 +651,9 @@ body {
     font-size:300%;
     letter-spacing: -0.5px;
   }
+  #homeli {
+    font-size: 100%;
+  }
   body {
     margin-top: 3vh;
   }

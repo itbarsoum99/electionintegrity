@@ -59,7 +59,7 @@ li {
 div {
   opacity: 0;
   transform: translate(0, 20px);
-  transition: all 1s;
+  transition: all 2s;
 }
 div.visible {
   opacity: 1;
@@ -67,6 +67,37 @@ div.visible {
 }*/
 
 
+.homearrow {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.homearrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #ffffff;
+  border-right: 5px solid #ffffff;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 1.5s infinite;
+}
+
+@keyframes animate {
+  0%{
+    opacity: 0;
+    transform: rotate(45deg) translate(-10px, -10px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    transform: rotate(45deg) translate(10px,10px);
+  }
+}
 
 
 
@@ -187,6 +218,41 @@ button {
 button:hover {
   background-color: #0c8ec9;
   font-size: 6vh;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #09131f;
+  z-index: 3;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+header h1 {
+  line-height: 85%;
+  color: #eeeeee;
+}
+
+header h2 {
+  line-height: 100%;
+  color: grey;
+}
+
+#header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+#firstcard {
+  margin-top: 102vh;
 }
 
 #homeli {
@@ -367,7 +433,7 @@ body {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: 0;
   left: 0;
   transition: 0.5s;
@@ -419,15 +485,15 @@ body {
 @media (max-width: 850px) {
   .sidebar {
     width: 100%;
-    height: 6%;
-    position: relative;
-    z-index: 1;
+    height: 15%;
+    position: fixed;
+    background-color:#111;
+    z-index: 2;
     top: 0;
     left: 0;
     transition: 0.5s;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    padding: 0;
   }
   .sidebar a {
     padding: 0.8vw 0.8vw 0.8vw 3.2vw;
@@ -492,8 +558,7 @@ body {
 @media (pointer: coarse) {
   .sidebar {
     width: 100%;
-    height: 6%;
-    position: relative;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;

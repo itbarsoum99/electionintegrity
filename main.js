@@ -173,7 +173,6 @@ function validateForm() {
     alert("Please visit https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx in order to register to vote in Wyoming.")
   } 
 }
-
 /*
 $(document).on("scroll", function () {
   var pageTop = $(document).scrollTop()
@@ -184,7 +183,9 @@ $(document).on("scroll", function () {
     var tag = tags[i]
     if ($(tag).position().top < pageBottom) {
       $(tag).addClass("visible")
-    }   
+    } else {
+      $(tag).removeClass("visible")
+    }
   }
 })
 */

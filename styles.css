@@ -29,6 +29,18 @@ li {
   margin-left: 40px;
 }
 
+#voterguide .card  {
+  justify-content: initial;
+}
+
+#voterguide .card p {
+  margin: auto;
+}
+
+.swing {
+  text-align: center !important;
+}
+
 #map {
   width: 50%;
   display: block;
@@ -407,7 +419,7 @@ body {
 .card {
   background-color: #1e1f22;
   border-radius: 10px;
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 35%;
@@ -582,7 +594,7 @@ body:hover {
   .quotation {
     width: 60%;
   }
-  strong, h3 {
+  h3 {
     font-size: 4vw !important;
   }
   #map {

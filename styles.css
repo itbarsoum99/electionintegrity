@@ -329,6 +329,14 @@ header h2 {
   font-size: 4.5vw;
 }
 
+#endorse {
+  font-size: 4.5vw;
+}
+
+#pa {
+  font-size: 4.5vw;
+}
+
 .card p {
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;

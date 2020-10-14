@@ -519,6 +519,9 @@ body {
   .sidebar a:hover {
     color: #f1f1f1;
   }
+  .firstcard {
+    margin-top: 15vh !important;
+  }
   .card {
     width: 60%;
   }
@@ -592,6 +595,9 @@ body {
   }
   .sidebar a:hover {
     color: #f1f1f1;
+  }
+  .firstcard {
+    margin-top: 10%;
   }
   .light {
     font-weight: normal;

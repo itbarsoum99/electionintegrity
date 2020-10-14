@@ -497,7 +497,7 @@ body {
 @media (max-width: 850px) {
   .sidebar {
     width: 100%;
-    height: 12%;
+    height: 6%;
     line-height: 140%;
     position: fixed;
     background-color:#111;
@@ -511,7 +511,7 @@ body {
   .sidebar a {
     padding: 0.8vw 0.8vw 0.8vw 3.2vw;
     text-decoration: none;
-    font-size: 4vw;
+    font-size: 3vw;
     color: #818181;
     display: inline-block;
     transition: 0.3s;
@@ -588,7 +588,7 @@ body {
   .sidebar a {
     padding: 0.8vw 0.8vw 0.8vw 3.2vw;
     text-decoration: none;
-    font-size: 5vw;
+    font-size: 2vw;
     color: #818181;
     display: inline-block;
     transition: 0.3s;

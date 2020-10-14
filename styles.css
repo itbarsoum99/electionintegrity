@@ -17,9 +17,12 @@ a {
 ul {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
   margin-top: 0%;
   padding-left: 0em;
+}
+
+#eti ul {
+  font-size: 1.2em;
 }
 
 li {
@@ -37,9 +40,6 @@ li {
   flex-wrap: wrap;
 }
 
-#data {
-  margin-top: 10vh;
-}
 
 #data h2 {
   font-weight: lighter;
@@ -324,11 +324,8 @@ header h2 {
   font-size: 3.5vw;
 }
 
-#WA h3 {
-  font-size: 4vw;
-}
 
-#PA {
+#PA h3 {
   font-size: 4.5vw;
 }
 
@@ -481,8 +478,25 @@ body {
   width: 20vw;
 }
 
- 
+#eti h1 {
+  font-size: 10vw;
+  font-family: 'Alfa Slab One', sans-serif;
+  font-weight: lighter;
+  margin: 0;
+}
 
+.state {
+  font-weight: lighter;
+  display: inline;
+  color: #ffffff;
+  font-family: 'Abril Fatface', sans-serif;
+  width: 100%;
+  text-align: center;
+  font-size: 5vw;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 90%;
+}
 
 #buttons {
   width: 30%;
@@ -520,7 +534,7 @@ body {
     color: #f1f1f1;
   }
   .firstcard {
-    margin-top: 15vh !important;
+    margin-top: 10vh !important;
   }
   .card {
     width: 60%;
@@ -532,22 +546,19 @@ body {
     width: 50%;
   }
   #data h2 {
-    font-size: 5vw !important;
+    font-size: 6vw !important;
   }
   h2 {
     font-size: 7vw !important;
   }
   .card h1 {
-    font-size: 12vw;
+    font-size: 12vw !important;
   }
   .card p {
     letter-spacing: -0.5px;
   }
   li {
     letter-spacing: -0.5px;
-  }
-  #data {
-    margin-top: 13vh;
   }
   #buttons {
     width: 70%;
@@ -561,13 +572,14 @@ body {
   #map {
     width: 80%;
   }
-}
-
-@media (max-width: 500px) {
-  #data {
-    margin-top: 15vh
+  .state {
+    font-size: 8vw !important;
+  }
+  #MA h3 {
+    font-size: 6vw !important;
   }
 }
+
 
 
 
@@ -626,6 +638,12 @@ body {
   }
   #data h2 {
     font-size: 8vw !important;
+  }
+  .state {
+    font-size: 11vw !important;
+  }
+  #MA h3 {
+    font-size: 8.25vw !important;
   }
   h2 {
     font-size: 11vw !important;

@@ -610,7 +610,7 @@ body {
     color: #f1f1f1;
   }
   .firstcard {
-    margin-top: 10%;
+    margin-top: 10% !important;
   }
   .light {
     font-weight: normal;

@@ -601,7 +601,7 @@ body {
   }
   .light {
     font-weight: normal;
-    display: none;
+    display: hidden;
   }
   .card{
     width: 80%;

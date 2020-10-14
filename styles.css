@@ -600,7 +600,8 @@ body {
   .sidebar a {
     padding: 0.8vw 0.8vw 0.8vw 3.2vw;
     text-decoration: none;
-    font-size: 3.8vw;
+    font-size: 4vw;
+    letter-spacing: -0.5px;
     color: #818181;
     display: inline-block;
     transition: 0.3s;

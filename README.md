@@ -6,7 +6,7 @@ The Election Integrity Project is a service project aiming to educate young US c
 [Visit our site](https://www.electionintegrity.us/)
 
 ## Privacy Policy and Usage
-The project is licensed publicly under a Attribution-NonCommercial 4.0
+The project is licensed publicly under an Attribution-NonCommercial 4.0
 International (CC BY-NC 4.0) License. This means you:
 * Can share the material
 * Can adapt the material

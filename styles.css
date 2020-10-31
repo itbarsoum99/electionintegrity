@@ -397,23 +397,14 @@ strong {
 
 body {
   background-color: #111;
+  scrollbar-width: none;
 }
-::-webkit-scrollbar {
-  width: 7px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: transparent; 
-}
- 
-::-webkit-scrollbar-thumb {
-  background: #888; 
-  border-radius: 40px;
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #bbb; 
-}
+
 
 
 .quotation {
